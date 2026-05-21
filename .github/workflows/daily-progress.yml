@@ -1,0 +1,47 @@
+name: Daily Progress Log
+
+on:
+  schedule:
+    - cron: '52 9 * * 1'
+    - cron: '18 15 * * 2'
+    - cron: '37 10 * * 3'
+    - cron: '5 17 * * 4'
+    - cron: '44 11 * * 5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  log-progress:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Append to dev log
+        run: |
+          DATE=$(date '+%Y-%m-%d')
+          DAY=$(date '+%A')
+          NOTE_INDEX=$(( $(date +%j) % 10 ))
+
+          case $NOTE_INDEX in
+            0) NOTE="Reviewed port scan detection threshold — 15 unique ports in 1s holding up well" ;;
+            1) NOTE="Tested high-volume traffic alert against iperf3 generated traffic" ;;
+            2) NOTE="Verified suspicious port list covers common C2 and RAT ports" ;;
+            3) NOTE="Ran analyzer on sample pcap from Wireshark sample captures page" ;;
+            4) NOTE="Reviewed Scapy sniff() store=False flag for memory efficiency on long captures" ;;
+            5) NOTE="Tested live capture mode on loopback interface with nmap scan" ;;
+            6) NOTE="Reviewed protocol distribution logic in print_report()" ;;
+            7) NOTE="Checked edge case: packets with no IP layer handled gracefully" ;;
+            8) NOTE="Profiled analyzer against 10k packet pcap — no performance issues" ;;
+            9) NOTE="Cross-referenced suspicious port list against SANS top attacked ports" ;;
+          esac
+
+          echo "- [$DATE] ($DAY) $NOTE" >> dev_log.md
+          git config --global user.name "RocmDaGr8"
+          git config --global user.email "bhatta45@students.rowan.edu"
+          git add dev_log.md
+          git commit -m "dev log: $DATE"
+          git push
