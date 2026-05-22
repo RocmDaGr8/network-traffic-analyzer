@@ -1,0 +1,1 @@
+- [2026-05-22] (Friday) Verified suspicious port list covers common C2 and RAT ports
