@@ -1,1 +1,2 @@
 - [2026-05-22] (Friday) Verified suspicious port list covers common C2 and RAT ports
+- [2026-05-25] (Monday) Tested live capture mode on loopback interface with nmap scan
