@@ -2,3 +2,4 @@
 - [2026-05-25] (Monday) Tested live capture mode on loopback interface with nmap scan
 - [2026-05-26] (Tuesday) Reviewed protocol distribution logic in print_report()
 - [2026-05-27] (Wednesday) Checked edge case: packets with no IP layer handled gracefully
+- [2026-05-28] (Thursday) Profiled analyzer against 10k packet pcap — no performance issues
