@@ -3,3 +3,4 @@
 - [2026-05-26] (Tuesday) Reviewed protocol distribution logic in print_report()
 - [2026-05-27] (Wednesday) Checked edge case: packets with no IP layer handled gracefully
 - [2026-05-28] (Thursday) Profiled analyzer against 10k packet pcap — no performance issues
+- [2026-05-29] (Friday) Cross-referenced suspicious port list against SANS top attacked ports
