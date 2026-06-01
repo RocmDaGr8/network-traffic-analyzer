@@ -4,3 +4,4 @@
 - [2026-05-27] (Wednesday) Checked edge case: packets with no IP layer handled gracefully
 - [2026-05-28] (Thursday) Profiled analyzer against 10k packet pcap — no performance issues
 - [2026-05-29] (Friday) Cross-referenced suspicious port list against SANS top attacked ports
+- [2026-06-01] (Monday) Verified suspicious port list covers common C2 and RAT ports
