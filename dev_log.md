@@ -10,3 +10,4 @@
 - [2026-06-04] (Thursday) Tested live capture mode on loopback interface with nmap scan
 - [2026-06-05] (Friday) Reviewed protocol distribution logic in print_report()
 - [2026-06-08] (Monday) Cross-referenced suspicious port list against SANS top attacked ports
+- [2026-06-09] (Tuesday) Reviewed port scan detection threshold — 15 unique ports in 1s holding up well
