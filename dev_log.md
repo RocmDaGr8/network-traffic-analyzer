@@ -18,3 +18,4 @@
 - [2026-06-16] (Tuesday) Checked edge case: packets with no IP layer handled gracefully
 - [2026-06-17] (Wednesday) Profiled analyzer against 10k packet pcap — no performance issues
 - [2026-06-18] (Thursday) Cross-referenced suspicious port list against SANS top attacked ports
+- [2026-06-19] (Friday) Reviewed port scan detection threshold — 15 unique ports in 1s holding up well
