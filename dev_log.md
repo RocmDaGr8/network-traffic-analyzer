@@ -25,3 +25,4 @@
 - [2026-06-25] (Thursday) Reviewed protocol distribution logic in print_report()
 - [2026-06-26] (Friday) Checked edge case: packets with no IP layer handled gracefully
 - [2026-06-29] (Monday) Reviewed port scan detection threshold — 15 unique ports in 1s holding up well
+- [2026-06-30] (Tuesday) Tested high-volume traffic alert against iperf3 generated traffic
