@@ -34,3 +34,4 @@
 - [2026-07-08] (Wednesday) Cross-referenced suspicious port list against SANS top attacked ports
 - [2026-07-09] (Thursday) Reviewed port scan detection threshold — 15 unique ports in 1s holding up well
 - [2026-07-10] (Friday) Tested high-volume traffic alert against iperf3 generated traffic
+- [2026-07-13] (Monday) Reviewed Scapy sniff() store=False flag for memory efficiency on long captures
