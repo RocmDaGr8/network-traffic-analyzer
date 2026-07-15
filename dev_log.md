@@ -36,3 +36,4 @@
 - [2026-07-10] (Friday) Tested high-volume traffic alert against iperf3 generated traffic
 - [2026-07-13] (Monday) Reviewed Scapy sniff() store=False flag for memory efficiency on long captures
 - [2026-07-14] (Tuesday) Tested live capture mode on loopback interface with nmap scan
+- [2026-07-15] (Wednesday) Reviewed protocol distribution logic in print_report()
