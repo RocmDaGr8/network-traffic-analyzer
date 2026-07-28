@@ -45,3 +45,4 @@
 - [2026-07-23] (Thursday) Reviewed Scapy sniff() store=False flag for memory efficiency on long captures
 - [2026-07-24] (Friday) Tested live capture mode on loopback interface with nmap scan
 - [2026-07-27] (Monday) Profiled analyzer against 10k packet pcap — no performance issues
+- [2026-07-28] (Tuesday) Cross-referenced suspicious port list against SANS top attacked ports
