@@ -46,3 +46,4 @@
 - [2026-07-24] (Friday) Tested live capture mode on loopback interface with nmap scan
 - [2026-07-27] (Monday) Profiled analyzer against 10k packet pcap — no performance issues
 - [2026-07-28] (Tuesday) Cross-referenced suspicious port list against SANS top attacked ports
+- [2026-07-29] (Wednesday) Reviewed port scan detection threshold — 15 unique ports in 1s holding up well
