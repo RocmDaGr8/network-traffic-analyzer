@@ -48,3 +48,4 @@
 - [2026-07-28] (Tuesday) Cross-referenced suspicious port list against SANS top attacked ports
 - [2026-07-29] (Wednesday) Reviewed port scan detection threshold — 15 unique ports in 1s holding up well
 - [2026-07-30] (Thursday) Tested high-volume traffic alert against iperf3 generated traffic
+- [2026-07-31] (Friday) Verified suspicious port list covers common C2 and RAT ports
