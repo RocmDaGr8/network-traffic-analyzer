@@ -55,3 +55,4 @@
 - [2026-08-07] (Friday) Cross-referenced suspicious port list against SANS top attacked ports
 - [2026-08-10] (Monday) Verified suspicious port list covers common C2 and RAT ports
 - [2026-08-11] (Tuesday) Ran analyzer on sample pcap from Wireshark sample captures page
+- [2026-08-12] (Wednesday) Reviewed Scapy sniff() store=False flag for memory efficiency on long captures
