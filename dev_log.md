@@ -58,3 +58,4 @@
 - [2026-08-12] (Wednesday) Reviewed Scapy sniff() store=False flag for memory efficiency on long captures
 - [2026-08-13] (Thursday) Tested live capture mode on loopback interface with nmap scan
 - [2026-08-14] (Friday) Reviewed protocol distribution logic in print_report()
+- [2026-08-17] (Monday) Cross-referenced suspicious port list against SANS top attacked ports
