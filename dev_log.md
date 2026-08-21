@@ -62,3 +62,4 @@
 - [2026-08-18] (Tuesday) Reviewed port scan detection threshold — 15 unique ports in 1s holding up well
 - [2026-08-19] (Wednesday) Tested high-volume traffic alert against iperf3 generated traffic
 - [2026-08-20] (Thursday) Verified suspicious port list covers common C2 and RAT ports
+- [2026-08-21] (Friday) Ran analyzer on sample pcap from Wireshark sample captures page
