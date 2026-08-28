@@ -67,3 +67,4 @@
 - [2026-08-25] (Tuesday) Checked edge case: packets with no IP layer handled gracefully
 - [2026-08-26] (Wednesday) Profiled analyzer against 10k packet pcap — no performance issues
 - [2026-08-28] (Friday) Reviewed port scan detection threshold — 15 unique ports in 1s holding up well
+- [2026-08-28] (Friday) Reviewed port scan detection threshold — 15 unique ports in 1s holding up well
