@@ -68,3 +68,4 @@
 - [2026-08-26] (Wednesday) Profiled analyzer against 10k packet pcap — no performance issues
 - [2026-08-28] (Friday) Reviewed port scan detection threshold — 15 unique ports in 1s holding up well
 - [2026-08-28] (Friday) Reviewed port scan detection threshold — 15 unique ports in 1s holding up well
+- [2026-08-31] (Monday) Ran analyzer on sample pcap from Wireshark sample captures page
