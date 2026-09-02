@@ -70,3 +70,4 @@
 - [2026-08-28] (Friday) Reviewed port scan detection threshold — 15 unique ports in 1s holding up well
 - [2026-08-31] (Monday) Ran analyzer on sample pcap from Wireshark sample captures page
 - [2026-09-01] (Tuesday) Reviewed Scapy sniff() store=False flag for memory efficiency on long captures
+- [2026-09-02] (Wednesday) Tested live capture mode on loopback interface with nmap scan
