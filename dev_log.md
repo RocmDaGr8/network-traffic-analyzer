@@ -71,3 +71,4 @@
 - [2026-08-31] (Monday) Ran analyzer on sample pcap from Wireshark sample captures page
 - [2026-09-01] (Tuesday) Reviewed Scapy sniff() store=False flag for memory efficiency on long captures
 - [2026-09-02] (Wednesday) Tested live capture mode on loopback interface with nmap scan
+- [2026-09-03] (Thursday) Reviewed protocol distribution logic in print_report()
