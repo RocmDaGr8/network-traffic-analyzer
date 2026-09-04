@@ -72,3 +72,4 @@
 - [2026-09-01] (Tuesday) Reviewed Scapy sniff() store=False flag for memory efficiency on long captures
 - [2026-09-02] (Wednesday) Tested live capture mode on loopback interface with nmap scan
 - [2026-09-03] (Thursday) Reviewed protocol distribution logic in print_report()
+- [2026-09-04] (Friday) Checked edge case: packets with no IP layer handled gracefully
