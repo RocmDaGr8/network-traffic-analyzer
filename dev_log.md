@@ -78,3 +78,4 @@
 - [2026-09-09] (Wednesday) Verified suspicious port list covers common C2 and RAT ports
 - [2026-09-10] (Thursday) Ran analyzer on sample pcap from Wireshark sample captures page
 - [2026-09-11] (Friday) Reviewed Scapy sniff() store=False flag for memory efficiency on long captures
+- [2026-09-14] (Monday) Checked edge case: packets with no IP layer handled gracefully
