@@ -84,3 +84,4 @@
 - [2026-09-17] (Thursday) Reviewed port scan detection threshold — 15 unique ports in 1s holding up well
 - [2026-09-18] (Friday) Tested high-volume traffic alert against iperf3 generated traffic
 - [2026-09-21] (Monday) Reviewed Scapy sniff() store=False flag for memory efficiency on long captures
+- [2026-09-22] (Tuesday) Tested live capture mode on loopback interface with nmap scan
