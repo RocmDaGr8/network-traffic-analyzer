@@ -88,3 +88,4 @@
 - [2026-09-23] (Wednesday) Reviewed protocol distribution logic in print_report()
 - [2026-09-24] (Thursday) Checked edge case: packets with no IP layer handled gracefully
 - [2026-09-25] (Friday) Profiled analyzer against 10k packet pcap — no performance issues
+- [2026-09-28] (Monday) Tested high-volume traffic alert against iperf3 generated traffic
