@@ -91,3 +91,4 @@
 - [2026-09-28] (Monday) Tested high-volume traffic alert against iperf3 generated traffic
 - [2026-09-29] (Tuesday) Verified suspicious port list covers common C2 and RAT ports
 - [2026-09-30] (Wednesday) Ran analyzer on sample pcap from Wireshark sample captures page
+- [2026-10-01] (Thursday) Reviewed Scapy sniff() store=False flag for memory efficiency on long captures
