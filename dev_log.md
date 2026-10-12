@@ -98,3 +98,4 @@
 - [2026-10-07] (Wednesday) Reviewed port scan detection threshold — 15 unique ports in 1s holding up well
 - [2026-10-08] (Thursday) Tested high-volume traffic alert against iperf3 generated traffic
 - [2026-10-09] (Friday) Verified suspicious port list covers common C2 and RAT ports
+- [2026-10-12] (Monday) Tested live capture mode on loopback interface with nmap scan
