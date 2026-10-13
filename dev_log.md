@@ -99,3 +99,4 @@
 - [2026-10-08] (Thursday) Tested high-volume traffic alert against iperf3 generated traffic
 - [2026-10-09] (Friday) Verified suspicious port list covers common C2 and RAT ports
 - [2026-10-12] (Monday) Tested live capture mode on loopback interface with nmap scan
+- [2026-10-13] (Tuesday) Reviewed protocol distribution logic in print_report()
