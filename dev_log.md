@@ -106,3 +106,4 @@
 - [2026-10-19] (Monday) Verified suspicious port list covers common C2 and RAT ports
 - [2026-10-20] (Tuesday) Ran analyzer on sample pcap from Wireshark sample captures page
 - [2026-10-21] (Wednesday) Reviewed Scapy sniff() store=False flag for memory efficiency on long captures
+- [2026-10-22] (Thursday) Tested live capture mode on loopback interface with nmap scan
