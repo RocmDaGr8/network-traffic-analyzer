@@ -111,3 +111,4 @@
 - [2026-10-26] (Monday) Cross-referenced suspicious port list against SANS top attacked ports
 - [2026-10-27] (Tuesday) Reviewed port scan detection threshold — 15 unique ports in 1s holding up well
 - [2026-10-28] (Wednesday) Tested high-volume traffic alert against iperf3 generated traffic
+- [2026-10-29] (Thursday) Verified suspicious port list covers common C2 and RAT ports
