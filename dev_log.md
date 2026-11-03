@@ -114,3 +114,4 @@
 - [2026-10-29] (Thursday) Verified suspicious port list covers common C2 and RAT ports
 - [2026-10-30] (Friday) Ran analyzer on sample pcap from Wireshark sample captures page
 - [2026-11-02] (Monday) Reviewed protocol distribution logic in print_report()
+- [2026-11-03] (Tuesday) Checked edge case: packets with no IP layer handled gracefully
