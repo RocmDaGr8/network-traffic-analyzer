@@ -129,3 +129,4 @@
 - [2026-11-19] (Thursday) Ran analyzer on sample pcap from Wireshark sample captures page
 - [2026-11-20] (Friday) Reviewed Scapy sniff() store=False flag for memory efficiency on long captures
 - [2026-11-23] (Monday) Checked edge case: packets with no IP layer handled gracefully
+- [2026-11-24] (Tuesday) Profiled analyzer against 10k packet pcap — no performance issues
